@@ -142,7 +142,7 @@ If you find SafeGuider useful for your research, please cite:
   title={SafeGuider: Robust and Practical Content Safety Control for Text-to-Image Models},
   author={Peigui Qi and Kunsheng Tang and Wenbo Zhou and Weiming Zhang and Nenghai Yu and Tianwei Zhang and Qing Guo and Jie Zhang},
   booktitle    = {Proceedings of the 2025 on {ACM} {SIGSAC} Conference on Computer and
-                  Communications Security, {CCS} 2025, Taipei, Taiwan, October
+                  Communications Security, {CCS} 2025, Taipei, October
                   13-17, 2025},
   publisher    = {{ACM}},
   year={2025}
