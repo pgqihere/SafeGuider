@@ -137,8 +137,19 @@ The classifier architecture is defined in `classifier.py`. You can modify it acc
 
 ## Citation
 If you find SafeGuider useful for your research, please cite:
-
-
+```bibtex
+@inproceedings{qi2025safeguider,
+  title={SafeGuider: Robust and Practical Content Safety Control for Text-to-Image Models},
+  author={Peigui Qi and Kunsheng Tang and Wenbo Zhou and Weiming Zhang and Nenghai Yu and Tianwei Zhang and Qing Guo and Jie Zhang},
+  booktitle    = {Proceedings of the 2025 on {ACM} {SIGSAC} Conference on Computer and
+                  Communications Security, {CCS} 2025, Taipei, Taiwan, October
+                  13-17, 2025},
+  publisher    = {{ACM}},
+  year={2025}
+  url          = {https://doi.org/10.1145/3719027.3744835},
+  doi          = {10.1145/3719027.3744835},
+}
+```
 
 ## Contact
 
