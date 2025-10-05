@@ -2,23 +2,11 @@
 
 ## Overview
 
-SafeGuider is a robust and practical framework for content safety control in text-to-image (T2I) models. Unlike existing defenses that either compromise generation quality or simply refuse to generate, SafeGuider achieves:
+This is the official repository for [SafeGuider: Robust and Practical Content Safety Control for Text-to-Image Models](link_to_paper), accepted by **ACM CCS 2025**. SafeGuider provides robust and practical content safety control for text-to-image models, achieving exceptionally low attack success rates while maintaining 100% generation success for benign prompts. Unlike existing methods that compromise quality or refuse generation, SafeGuider generates safe, meaningful alternatives through embedding-level recognition and safety-aware beam search, with broad applicability across SD-V1.4, SD-V2.1, and Flux.1 architectures.
 
 
 ![SafeGuider Framework](asset/framework.png)
 
-
-- **Robust Detection**: Attack success rates as low as 0.01%-5.48% across various adversarial attacks
-- **High-Quality Generation**: 100% generation success rate for benign prompts with preserved semantic accuracy
-- **Practical Utility**: Generates safe and meaningful images instead of black images or complete refusal
-- **Broad Applicability**: Works across different T2I architectures (SD-V1.4, SD-V2.1, Flux.1)
-
-### Key Insights
-
-Our empirical study reveals that the **[EOS] token** in T2I text encoders acts as a semantic aggregator, exhibiting distinct distributional patterns between benign and adversarial prompts. Building on this, SafeGuider employs:
-
-1. **Embedding-level Recognition**: Lightweight classifier analyzing [EOS] token embeddings
-2. **SAFE Beam Search**: Safety-Aware Feature Erasure algorithm that guides unsafe prompts to generate safe alternatives
 
 ## Project Structure
 ```markdown
@@ -151,11 +139,6 @@ The classifier architecture is defined in `classifier.py`. You can modify it acc
 If you find SafeGuider useful for your research, please cite:
 
 
-
-## Acknowledgments
-
-- Stable Diffusion team for the base model
-- The research community for valuable datasets and benchmarks
 
 ## Contact
 
