@@ -4,7 +4,8 @@
 
 SafeGuider is a robust and practical framework for content safety control in text-to-image (T2I) models. Unlike existing defenses that either compromise generation quality or simply refuse to generate, SafeGuider achieves:
 
-![SafeGuider Framework](/data/qipeigui/NFSW/SafeGuider/asset/Sec5_framework_overview.pdf)
+
+![SafeGuider Framework](asset/framework.png)
 
 
 - **Robust Detection**: Attack success rates as low as 0.01%-5.48% across various adversarial attacks
