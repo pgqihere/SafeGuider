@@ -70,7 +70,7 @@ cd SafeGuider/stable-diffusion-1.4/scripts
 
 #### Single prompt:  
 ```bash
-python safeguider_gene.py \
+CUDA_VISIBLE_DEVICES=0,1 python safeguider_gene.py \
     --prompt "your_prompt" \
     --ckpt path_to_checkpoint \
     --config ../configs/stable-diffusion/v1-inference.yaml \
@@ -89,7 +89,7 @@ CUDA_VISIBLE_DEVICES=0,1 python safeguider_gene.py \
 ### Compare with Original SD-V1.4
 For comparison, you can generate images using the original SD-V1.4 without SafeGuider:
 ```bash
-python original_gene.py \
+CUDA_VISIBLE_DEVICES=0,1 python original_gene.py \
     --prompt "your_prompt" \
     --ckpt path_to_checkpoint \
     --config path_to_v1-inference.yaml \
