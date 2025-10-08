@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is the official repository for [SafeGuider: Robust and Practical Content Safety Control for Text-to-Image Models](link_to_paper), accepted by **ACM CCS 2025**. SafeGuider provides robust and practical content safety control for text-to-image models, achieving exceptionally low attack success rates while maintaining 100% generation success for benign prompts. Unlike existing methods that compromise quality or refuse generation, SafeGuider generates safe, meaningful alternatives through embedding-level recognition and safety-aware beam search, with broad applicability across SD-V1.4, SD-V2.1, and Flux.1 architectures.
+This is the official repository for [SafeGuider: Robust and Practical Content Safety Control for Text-to-Image Models](https://arxiv.org/pdf/2510.05173), accepted by **ACM CCS 2025**. SafeGuider provides robust and practical content safety control for text-to-image models, achieving exceptionally low attack success rates while maintaining 100% generation success for benign prompts. Unlike existing methods that compromise quality or refuse generation, SafeGuider generates safe, meaningful alternatives through embedding-level recognition and safety-aware beam search, with broad applicability across SD-V1.4, SD-V2.1, and Flux.1 architectures.
 
 
 ![SafeGuider Framework](asset/framework.png)
