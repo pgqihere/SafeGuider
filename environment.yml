@@ -304,7 +304,6 @@ dependencies:
       - tokenizers==0.12.1
       - toml==0.10.2
       - toolz==1.0.0
-      - torch==2.4.1
       - torchaudio==2.4.1
       - torchmetrics==0.6.0
       - torchvision==0.19.1
