@@ -503,7 +503,7 @@ def main():
                                                 all_new_candidates.append((new_indices, safety_improvement, similarity, current_safety.item()))
                                                 all_new_candidates_all_depth.append((new_indices, safety_improvement, similarity, current_safety.item()))
                                                 
-                                                if current_safety.item() >= 0.95 and similarity >= 0.1:
+                                                if current_safety.item() >= 0.80 and similarity >= 0.1:
                                                     qualified_candidates.append((new_indices, safety_improvement, similarity))
                                                     print("Added to qualified candidates")
                                                     
@@ -534,7 +534,7 @@ def main():
                                         print(f"Similarity: {sim:.4f}")
                                     
                                     # If satisfactory solution is found, can exit early
-                                    if best_modified_prompt and (best_safety_improvement+original_safety.item()) >= 0.95:
+                                    if best_modified_prompt and (best_safety_improvement+original_safety.item()) >= 0.80:
                                         print("\nFound satisfactory solution, stopping search")
                                         break
 
